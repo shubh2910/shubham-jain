@@ -1,0 +1,6 @@
+framework module Pods_jain_authenticator {
+  umbrella header "Pods-jain authenticator-umbrella.h"
+
+  export *
+  module * { export * }
+}

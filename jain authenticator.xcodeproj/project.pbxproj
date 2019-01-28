@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5105F82121E8A705002F9310 /* EnterManuallyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5105F82021E8A705002F9310 /* EnterManuallyTableViewController.swift */; };
+		515AEB67210EEBDE00E104AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515AEB66210EEBDE00E104AC /* AppDelegate.swift */; };
+		515AEB69210EEBDE00E104AC /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515AEB68210EEBDE00E104AC /* OTPViewController.swift */; };
+		515AEB6C210EEBDE00E104AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515AEB6A210EEBDE00E104AC /* Main.storyboard */; };
+		515AEB6E210EEBDE00E104AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515AEB6D210EEBDE00E104AC /* Assets.xcassets */; };
+		515AEB71210EEBDE00E104AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515AEB6F210EEBDE00E104AC /* LaunchScreen.storyboard */; };
+		515AEB79210F0A0600E104AC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515AEB78210F0A0600E104AC /* TableViewCell.swift */; };
+		515AEB7F21103C2800E104AC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515AEB7E21103C2800E104AC /* WebViewController.swift */; };
+		51F4CFDF21F1B54600774120 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4CFDE21F1B54500774120 /* ProgressBarView.swift */; };
+		F23C06DB06A595D0E6E3E840 /* Pods_jain_authenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A18AC4CA9357F23E2A6CAFA /* Pods_jain_authenticator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5105F82021E8A705002F9310 /* EnterManuallyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterManuallyTableViewController.swift; sourceTree = "<group>"; };
+		515AEB63210EEBDE00E104AC /* jain authenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jain authenticator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515AEB66210EEBDE00E104AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		515AEB68210EEBDE00E104AC /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		515AEB6B210EEBDE00E104AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515AEB6D210EEBDE00E104AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515AEB70210EEBDE00E104AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		515AEB72210EEBDE00E104AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515AEB78210F0A0600E104AC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		515AEB7E21103C2800E104AC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		51F4CFDE21F1B54500774120 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		6A18AC4CA9357F23E2A6CAFA /* Pods_jain_authenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jain_authenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E83ACD4DD8F86362D4CF11A /* Pods-jain authenticator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jain authenticator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jain authenticator/Pods-jain authenticator.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB0119A1124C86A23DD587C /* Pods-jain authenticator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jain authenticator.release.xcconfig"; path = "Pods/Target Support Files/Pods-jain authenticator/Pods-jain authenticator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515AEB60210EEBDE00E104AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23C06DB06A595D0E6E3E840 /* Pods_jain_authenticator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515AEB5A210EEBDE00E104AC = {
+			isa = PBXGroup;
+			children = (
+				515AEB65210EEBDE00E104AC /* jain authenticator */,
+				515AEB64210EEBDE00E104AC /* Products */,
+				BCA39A5D0A09DC67B5681157 /* Pods */,
+				82A1667DF73F339E575BB956 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		515AEB64210EEBDE00E104AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515AEB63210EEBDE00E104AC /* jain authenticator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515AEB65210EEBDE00E104AC /* jain authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				515AEB66210EEBDE00E104AC /* AppDelegate.swift */,
+				515AEB68210EEBDE00E104AC /* OTPViewController.swift */,
+				515AEB7E21103C2800E104AC /* WebViewController.swift */,
+				515AEB78210F0A0600E104AC /* TableViewCell.swift */,
+				5105F82021E8A705002F9310 /* EnterManuallyTableViewController.swift */,
+				51F4CFDE21F1B54500774120 /* ProgressBarView.swift */,
+				515AEB6A210EEBDE00E104AC /* Main.storyboard */,
+				515AEB6D210EEBDE00E104AC /* Assets.xcassets */,
+				515AEB6F210EEBDE00E104AC /* LaunchScreen.storyboard */,
+				515AEB72210EEBDE00E104AC /* Info.plist */,
+			);
+			path = "jain authenticator";
+			sourceTree = "<group>";
+		};
+		82A1667DF73F339E575BB956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A18AC4CA9357F23E2A6CAFA /* Pods_jain_authenticator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA39A5D0A09DC67B5681157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E83ACD4DD8F86362D4CF11A /* Pods-jain authenticator.debug.xcconfig */,
+				CEB0119A1124C86A23DD587C /* Pods-jain authenticator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515AEB62210EEBDE00E104AC /* jain authenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515AEB75210EEBDE00E104AC /* Build configuration list for PBXNativeTarget "jain authenticator" */;
+			buildPhases = (
+				4031602C22E424CA275C45CA /* [CP] Check Pods Manifest.lock */,
+				515AEB5F210EEBDE00E104AC /* Sources */,
+				515AEB60210EEBDE00E104AC /* Frameworks */,
+				515AEB61210EEBDE00E104AC /* Resources */,
+				55EB9385C4AF01CBE42FDB64 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jain authenticator";
+			productName = "jain authenticator";
+			productReference = 515AEB63210EEBDE00E104AC /* jain authenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515AEB5B210EEBDE00E104AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Shubham Jain";
+				TargetAttributes = {
+					515AEB62210EEBDE00E104AC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 515AEB5E210EEBDE00E104AC /* Build configuration list for PBXProject "jain authenticator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515AEB5A210EEBDE00E104AC;
+			productRefGroup = 515AEB64210EEBDE00E104AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515AEB62210EEBDE00E104AC /* jain authenticator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515AEB61210EEBDE00E104AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515AEB71210EEBDE00E104AC /* LaunchScreen.storyboard in Resources */,
+				515AEB6E210EEBDE00E104AC /* Assets.xcassets in Resources */,
+				515AEB6C210EEBDE00E104AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4031602C22E424CA275C45CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jain authenticator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55EB9385C4AF01CBE42FDB64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-jain authenticator/Pods-jain authenticator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Base32/Base32.framework",
+				"${BUILT_PRODUCTS_DIR}/OneTimePassword/OneTimePassword.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base32.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OneTimePassword.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jain authenticator/Pods-jain authenticator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515AEB5F210EEBDE00E104AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515AEB79210F0A0600E104AC /* TableViewCell.swift in Sources */,
+				51F4CFDF21F1B54600774120 /* ProgressBarView.swift in Sources */,
+				5105F82121E8A705002F9310 /* EnterManuallyTableViewController.swift in Sources */,
+				515AEB69210EEBDE00E104AC /* OTPViewController.swift in Sources */,
+				515AEB67210EEBDE00E104AC /* AppDelegate.swift in Sources */,
+				515AEB7F21103C2800E104AC /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		515AEB6A210EEBDE00E104AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515AEB6B210EEBDE00E104AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515AEB6F210EEBDE00E104AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515AEB70210EEBDE00E104AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515AEB73210EEBDE00E104AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		515AEB74210EEBDE00E104AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515AEB76210EEBDE00E104AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E83ACD4DD8F86362D4CF11A /* Pods-jain authenticator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPG6R438DJ;
+				INFOPLIST_FILE = "jain authenticator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jain.jain-authenticator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515AEB77210EEBDE00E104AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB0119A1124C86A23DD587C /* Pods-jain authenticator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPG6R438DJ;
+				INFOPLIST_FILE = "jain authenticator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jain.jain-authenticator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515AEB5E210EEBDE00E104AC /* Build configuration list for PBXProject "jain authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515AEB73210EEBDE00E104AC /* Debug */,
+				515AEB74210EEBDE00E104AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515AEB75210EEBDE00E104AC /* Build configuration list for PBXNativeTarget "jain authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515AEB76210EEBDE00E104AC /* Debug */,
+				515AEB77210EEBDE00E104AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515AEB5B210EEBDE00E104AC /* Project object */;
+}
